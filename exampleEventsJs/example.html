@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="example.css">
+    <title>Example for events in Javascript</title>
+</head>
+
+<body>
+    <h2>Cambiar color de fondo</h2>
+    <p>Mueve el mouse arriba de los cuadrados</p>
+
+    <table>
+        <tr>
+            <td class="khaki" onmouseover="bgChange(this.style.backgroundColor)" onmouseout="bgChange('transparent')"></td>
+            <td class="palegreen" onmouseover="bgChange(this.style.backgroundColor)" onmouseout="bgChange('transparent')"></td>
+            <td class="silver" onmouseover="bgChange(this.style.backgroundColor)" onmouseout="bgChange('transparent')"></td>
+        </tr>
+    </table>
+
+    <script src="example.js"></script>
+</body>
+
+</html>

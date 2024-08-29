@@ -1,0 +1,21 @@
+table{
+    width: 300px;
+    height: 100px;
+}
+
+td{
+    width: 100px;
+    height: 100px;
+}
+
+.khaki{
+    background-color: khaki;
+}
+
+.palegreen{
+    background-color: palegreen;
+}
+
+.silver{
+    background-color: silver;
+}
